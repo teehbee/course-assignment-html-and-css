@@ -31,7 +31,6 @@
 
 .main-logo {
     border: 1px solid green; 
-    margin-top: 8px;
     margin-left: 30px;
     max-height: auto;
     max-width: 115px;
@@ -47,6 +46,8 @@ nav {
 }
 nav ul {
     padding: 0px;
+    position: relative;
+    top: 4px;
 }
 
 nav a {
@@ -62,12 +63,19 @@ nav .nav-bar-icons {
     border: 1px solid green;
     width: 350px;
     margin-left: auto;
+    position: relative;
+    bottom: 12px;
 }
 
 .nav-bar-icons .fa-solid {
     padding: 20px; 
     display: inline-block;
     margin: 0px 15px 0px 0px; 
+}
+
+.main-nav {
+    position: relative;
+    top: 8px;
 }
 
 /*Giftcard section*/
