@@ -1,0 +1,86 @@
+.upper-navigation-bar {
+    background-color: #000;
+    margin: 0px;
+}
+
+.upper-navigation-bar a {
+    color: #FFF;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+    border: 1px solid green;
+}
+
+.upper-navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.upper-navigation-bar li {
+    display: inline;
+}
+
+.left-nav-bar-items a {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid green;
+}
+
+.main-logo {
+    border: 1px solid green; 
+    margin-top: 8px;
+    margin-left: 30px;
+    max-height: auto;
+    max-width: 115px;
+}
+
+.main-logo,
+.left-nav-bar-items {
+    float: left;
+}
+
+nav {
+    height: 80px;
+}
+nav ul {
+    padding: 0px;
+}
+
+nav a {
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav .nav-bar-icons {
+    text-align: right;
+    border: 1px solid green;
+    width: 350px;
+    margin-left: auto;
+}
+
+.nav-bar-icons .fa-solid {
+    padding: 20px; 
+    display: inline-block;
+    margin: 0px 15px 0px 0px; 
+}
+
+/*Giftcard section*/
+
+.giftcard {
+    background-color: #000;
+    text-align: center;
+    margin: 0px;
+}
+
+.giftcard a {
+    color: #FFF;
+    font-size: 10px;
+    text-decoration: none;
+    border: 1px solid green;
+}

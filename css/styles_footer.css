@@ -1,0 +1,45 @@
+.main-footer {
+    background-color: #000;
+    color: #FFF;
+    min-height: 372px;
+}
+
+.main-footer p {
+    font-size: 16px;
+    border: 1px solid green;
+}
+
+.main-footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: #FFF;
+    border: 1px solid green;
+}
+
+.fa-brands {
+    padding: 8px;
+}
+
+.footer-logo {
+  display: block;
+  text-align: center;
+  margin: auto;
+  border: 1px solid green;
+}
+
+
+.footer-customer-club-info {
+    position: right;
+    max-width: 300px;
+    float: right;
+    padding: 10px;
+}
+
+.footer-left, 
+.footer-middle {
+    float: left;
+}

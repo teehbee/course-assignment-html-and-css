@@ -1,0 +1,57 @@
+
+.frontpage-sale {
+    background: no-repeat url('../images/hero_photo_1.jpg');
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    display: block;
+    border: 1px solid green;
+}
+
+.frontpage-sale h1 {
+    color: #FFF;
+}
+
+.frontpage-sale h2 {
+    color: #FFF;
+}
+
+.frontpage-scott {
+    background: no-repeat url('../images/hero_photo_3.jpg');
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    border: 1px solid green;
+} 
+
+.frontpage-scott h1 {
+    color: #FFF
+}
+
+.frontpage-scott h2 {
+    color: #FFF
+}
+
+/* Product carousel on frontpage */
+
+.product-carousel {
+    text-align: center;
+}
+
+.product-carousel .carousel-product {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid green;
+}
+
+product-carousel p {
+    font-size: 20px;
+}
+
+.fa-heart {
+    float: right;
+}
+
+.arrow-icon {
+    float: right;
+}

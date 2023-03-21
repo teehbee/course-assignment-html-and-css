@@ -1,0 +1,24 @@
+.contact-page {
+    background-color: #EDEDED;
+}
+
+.contact-main {
+    border: 1px solid green;
+    max-width: 587px;
+    padding: 15px;
+    background-color: #FFF;
+    margin: 10px;
+}
+
+.contact-info {
+    border: 1px solid green;
+    max-width:587px;
+    padding: 15px;
+    text-align: center;
+    background-color: #FFF;
+    margin: 10px;
+}
+
+.contact-page h1 {
+    font-family: 'Fjalla One',Verdana, sans-serif;
+}

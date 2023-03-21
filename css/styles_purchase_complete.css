@@ -1,0 +1,44 @@
+.purchase-complete {
+    background-color: #EBEBEB;
+}
+
+.purchase-complete-1 {
+    max-width: 1370px;
+    background-color: #FFF;
+    text-align: center;
+    margin: auto;
+}
+
+.purchase {
+    border: 1px solid #8de186;
+}
+
+.purchase-complete-2 {
+    max-width: 825px;
+    margin: auto;
+    border: 1px solid #8de186;
+}
+
+.purchase-complete-3 {
+    max-width: 600px;
+    margin: 10px 15px 10px 35px;
+}
+
+.purchase-complete-4 {
+    max-width: 600px;
+    margin: 10px 15px 10px 35px;
+}
+
+.purchase-complete-5 {
+    max-width: 600px;
+    margin: 10px 15px 10px 35px;
+}
+
+.purchase-complete-5 .cta-green {
+    display: block;
+}
+
+.purchase-complete-6 {
+    max-width: 600px;
+    margin: 10px 15px 10px 35px;
+}
