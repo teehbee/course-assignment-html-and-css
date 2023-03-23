@@ -25,12 +25,10 @@
 }
 
 .footer-logo {
-  display: block;
-  text-align: center;
+  display: inline-block;
   margin: auto;
   border: 1px solid green;
 }
-
 
 .footer-customer-club-info {
     position: right;
@@ -42,4 +40,13 @@
 .footer-left, 
 .footer-middle {
     float: left;
+}
+
+.footer-payments {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer-text {
+    display: flex;
 }

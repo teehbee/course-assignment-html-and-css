@@ -15,4 +15,5 @@
 
 .about-pictures img {
     max-width: 700px;
+    display: inline-block;
 }

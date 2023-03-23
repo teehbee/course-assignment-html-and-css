@@ -3,39 +3,48 @@
     background: no-repeat url('../images/hero_photo_1.jpg');
     background-size: cover;
     height: 800px;
-    text-align: center;
-    display: block;
     border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
 }
 
-.frontpage-sale h1 {
+.frontpage-sale h1, h2 {
     color: #FFF;
+    display: inline-block;
+    margin-bottom: 30px;
 }
 
-.frontpage-sale h2 {
-    color: #FFF;
+.frontpage-sale, a {
+    margin-bottom: 30px;
 }
 
 .frontpage-scott {
     background: no-repeat url('../images/hero_photo_3.jpg');
     background-size: cover;
     height: 800px;
-    text-align: center;
     border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
 } 
 
-.frontpage-scott h1 {
-    color: #FFF
-}
-
-.frontpage-scott h2 {
-    color: #FFF
+.frontpage-scott h1, h2 {
+    color: #FFF;
+    display: inline-block;
+    margin-bottom: 30px;
 }
 
 /* Product carousel on frontpage */
 
 .product-carousel {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .product-carousel .carousel-product {
@@ -53,5 +62,5 @@ product-carousel p {
 }
 
 .arrow-icon {
-    float: right;
+    
 }
