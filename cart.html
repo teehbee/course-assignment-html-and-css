@@ -3,18 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="This is your shopping cart for RainyDays">
+    <meta name="description" content="This is your shopping cart at RainyDays">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/99f531cd0d.js" crossorigin="anonymous"></script>
     <title>RainyDays | Shopping Cart</title>
     <link rel="stylesheet" href="css/styles_body.css">
     <link rel="stylesheet" href="css/styles_header_giftcard.css">
     <link rel="stylesheet" href="css/styles_footer.css">
+    <link rel="stylesheet" href="css/styles_cart.css">
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
 </head> 
 <body>
-    
+    <header class="cart-header">
+        <nav>
+            <a href="index.html"><img src=images/logo_gray.jpg class="cart-logo"></a>
+            <a href="index.html" class="cart-header-link">CONTINUE SHOPPING</a>
+        </nav>   
+    </header>
+    <main class="shopping-cart">
+        <section class="your-shopping-cart">
+            <div class="cart-header-black">
+                <h2>YOUR SHOPPING CART</h2>
+            </div>
+            <div class="cart-main-content">
+                <div class="first-product">
+                <img src="images/products-men-main/mens_jacket_1.jpg" class="cart-photo">
+                <p class="jacket-name">Jacket name</p>
+                <p class="jacket-size">Size of jacket</p>
+                <p class="jacket-price">Price of jacket</p>
+                <p class="jacket-amount">Amount chooser</p>
+            </div>
+            <div class="second-product">
+                <img src="images/products-men-main/mens_jacket_2.jpg" class="cart-photo">
+                <p class="jacket-name">Jacket name</p>
+                <p class="jacket-size">Size of jacket</p>
+                <p class="jacket-price">Price of jacket</p>
+                <p class="jacket-amount">Amount chooser</p>
+                <p class="total-amount">Total Amount</p>
+            </div>
+            </div>
+        </section>
+        <section class="cart-giftcard-entry">
+            <div class="cart-giftcard">
+                <h2>USE GIFTCARD</h2>
+            </div>
+            <div class="cart-giftcard-main-section">
+                <h4>YOUR DETAILS</h4>
+                <input type="text" id="giftcard-number" name="giftcard-number" placeholder="Gift card number">
+                <h4>YOUR CODE</h4>
+                <input type="text" id="giftcard-code" name="giftcard-code" placeholder="Code">
+                <a href="missing-page.html" class="cta-button-black">OK</a>
+            </div>
+        </section>
+        <section class="complete-order">
+            <div class="cart-header-black">
+                <h2>COMPLETE YOUR ORDER</h2>
+            </div>
+            <div class="complete-order-main-content">
+                <h3>YOUR DETAILS</h3>
+                <div class="cart-contact-details">
+                    <input type="text" id="order-email" name="order-email" placeholder="Your email address">
+                    <input type="text" id="order-zip-code" name="order-zip-code" placeholder="Your zip code">
+                    <a href="missing-page.html" class="privacy-link">RainyDays Privacy Disclaimer</a>
+                    <input type="submit" value="CONTINUE" class="cta-button-black">
+                </div>
+                    <h3 class="delivery-title">DELIVERY</h3>
+                        <div class="delivery-box">
+                            <h3>Place for delivery</h3>
+                            <p class="free">Free</p>
+                            <div class="address-box">
+                                <p class="address-box-line-1">No delivery address found</p>
+                                <p class="address-box-line-2"> <a href="missing-page.html">Click </a>to change address</p>
+                            </div>
+                        </div>
+                    <div class="cart-checkboxes">
+                        <input type="checkbox" name="sale-declaration" value="confirmed" id="sale-declaration">
+                        <label for="sale-declaration">I accept the terms of RainyDays terms of sale declaration</label>
+                        <input type="checkbox" name="privacy" value="confirmed" id="privacy">
+                        <label for="privacy">I accept RainyDays privacy policy</label>
+                        <input type="checkbox" name="newsletter" value="confirmed" id="newsletter">
+                        <label for="newsletter">I wish to receive news and promotions from RainyDays</label> 
+                    </div>
+                <div class="order-box">
+                    <p>Order amount incl. VAT. <a href="missing-page.html">Show details</a></p>
+                    <p>6498 kr</p>
+                    <input type="submit" value="Purchase order" class="cta-green">
+                </div>
+                <div class="cart-payment-options">
+                    <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                    <i class="fa-brands fa-google-pay fa-3x"></i>
+                    <i class="fa-brands fa-cc-visa fa-3x"></i>
+                    <i class="fa-brands fa-cc-mastercard fa-3x"></i>
+                    <i class="fa-brands fa-cc-paypal fa-3x"></i>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

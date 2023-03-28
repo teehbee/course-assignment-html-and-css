@@ -2,6 +2,9 @@
     background-color: #000;
     color: #FFF;
     min-height: 372px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto 1fr;
 }
 
 .main-footer p {
@@ -20,33 +23,51 @@
     border: 1px solid green;
 }
 
+.main-footer .footer-logo {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    margin-top: -120px;
+}
+
 .fa-brands {
     padding: 8px;
 }
 
-.footer-logo {
-  display: inline-block;
-  margin: auto;
-  border: 1px solid green;
-}
-
 .footer-customer-club-info {
-    position: right;
     max-width: 300px;
     float: right;
     padding: 10px;
+    grid-column: 5/6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 30px;
 }
 
-.footer-left, 
-.footer-middle {
-    float: left;
+.footer-left {
+    grid-column: 1;
 }
+
+.footer-middle {
+    grid-column: 2/3;
+}
+
 
 .footer-payments {
+    grid-column: 3;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    align-items: top;
+    margin-top: 20px;
 }
 
 .footer-text {
     display: flex;
+    margin-left: 30px;
+}
+
+.footer-icons {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 30px;
 }

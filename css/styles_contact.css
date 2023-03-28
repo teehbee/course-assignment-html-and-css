@@ -23,6 +23,7 @@
     text-align: center;
     background-color: #FFF;
     margin: 10px;
+    max-height: 330px;
 }
 
 .contact-page h1 {

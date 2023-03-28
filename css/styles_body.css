@@ -2,6 +2,8 @@ body {
     font-family: Cantarell, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 h1 {
