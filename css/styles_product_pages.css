@@ -60,6 +60,7 @@
     border: 1px solid green;
     display: flex;
     margin: auto;
+    position: relative;
 }
 
 .product-tiles__main {
@@ -71,4 +72,10 @@
 
 .product-main {
     margin: auto;
+}
+
+.arrow-icon {
+    position: absolute;
+    right: 150px;
+    bottom: 631px;
 }
