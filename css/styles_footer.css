@@ -23,6 +23,10 @@
     border: 1px solid green;
 }
 
+.footer-bold {
+    font-weight: bold;
+}
+
 .main-footer .footer-logo {
     grid-column: 3;
     grid-row: 2;

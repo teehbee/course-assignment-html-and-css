@@ -23,11 +23,16 @@
     text-align: center;
     background-color: #FFF;
     margin: 10px;
-    max-height: 330px;
+    max-height: 370px;
 }
 
 .contact-page h1 {
     font-family: 'Fjalla One',Verdana, sans-serif;
+}
+
+.contact-page h2 {
+    font-family: Cantarell, Verdana, sans-serif;
+    font-size: 1.4em;
 }
 
 input, 

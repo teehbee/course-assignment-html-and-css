@@ -12,10 +12,11 @@
 .about-pictures {
     text-align: center;
     margin: 50px auto;
+    max-width: 1450px;
 }
 
 .about-pictures img {
     max-width: 700px;
-    display: inline-block;
     max-height: 510px;
+    display: inline-block;
 }
